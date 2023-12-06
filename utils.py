@@ -266,15 +266,14 @@ def display_attention(model, sentence, translation, attention, title, n_heads=8,
 
 
 def calculate_bleu(data_set, test_iterator, src_field, trg_field, model, device, max_len=50):
-    # This is an optimization method mentioned in the tutorial,
-    #  but we found that it has some deviation from the normal calculated score,
-    #  so it is disabled by comment.
-    # If you want to try this optimization, just uncomment it.
-
     # if model.name == 'Transformer':
     #     print('Enable acceleration!')
     #     _, _, bleu = Transformer.calculate_bleu_alt(test_iterator, src_field, trg_field, model, device, max_len)
     #     return bleu
+    # This is an optimization method mentioned in the tutorial,
+    #  but we found that it has some deviation from the normal calculated score,
+    #  so it is disabled by comment.
+    # If you want to try this optimization, just uncomment it.
 
     trgs = []
     pred_trgs = []
