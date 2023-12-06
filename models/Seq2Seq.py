@@ -4,10 +4,10 @@ import torch
 from torch import nn
 
 
-# paper name: Sequence to Sequence Learning with Neural Networks
-# Neural Information Processing Systems (NIPS)
-# time: 2014-09-10
-# paper reference: https://arxiv.org/pdf/1409.3215.pdf
+# Paper Name: Sequence to Sequence Learning with Neural Networks
+# Accept: Neural Information Processing Systems (NIPS)
+# Time: 2014-09-10
+# Paper Reference: https://arxiv.org/pdf/1409.3215.pdf
 
 class Encoder(nn.Module):
     def __init__(self, input_dim, emb_dim, hid_dim, n_layers, dropout):

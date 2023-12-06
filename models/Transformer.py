@@ -11,10 +11,10 @@ from torchtext.data.metrics import bleu_score
 from tqdm import tqdm
 
 
-# paper name: Attention is All You Need
-# Neural Information Processing Systems (NIPS)
-# time: 2017-06-12
-# paper reference: https://arxiv.org/pdf/1706.03762.pdf
+# Paper Name: Attention is All You Need
+# Accept: Neural Information Processing Systems (NIPS)
+# Time: 2017-06-12
+# Paper Reference: https://arxiv.org/pdf/1706.03762.pdf
 
 # The differences between the implementation and the paper are:
 #   we use a learned positional encoding instead of a static one

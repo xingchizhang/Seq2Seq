@@ -4,10 +4,10 @@ import torch
 from torch import nn
 
 
-# paper name: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
-# arXiv preprint arXiv:1406.1078
-# time: 2014-06-03
-# paper reference: https://arxiv.org/pdf/1406.1078.pdf
+# Paper Name: Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation
+# Accept: arXiv preprint arXiv:1406.1078
+# Time: 2014-06-03
+# Paper Reference: https://arxiv.org/pdf/1406.1078.pdf
 
 class Encoder(nn.Module):
     def __init__(self, input_dim, emb_dim, hid_dim, dropout):

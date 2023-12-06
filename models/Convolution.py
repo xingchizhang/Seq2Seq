@@ -7,10 +7,10 @@ import matplotlib.pyplot as plt
 import matplotlib.ticker as ticker
 
 
-# paper name: Convolutional Sequence to Sequence Learning
-# International conference on machine learning (ICML)
-# time: 2017-05-08
-# paper reference: https://arxiv.org/pdf/1705.03122.pdf
+# Paper Name: Convolutional Sequence to Sequence Learning
+# Accept: International conference on machine learning (ICML)
+# Time: 2017-05-08
+# Paper Reference: https://arxiv.org/pdf/1705.03122.pdf
 
 class Encoder(nn.Module):
     def __init__(self, input_dim, emb_dim, hid_dim, n_layers, kernel_size, dropout, device, max_length=100):

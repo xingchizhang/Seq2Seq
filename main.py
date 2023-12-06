@@ -18,8 +18,8 @@ torch.cuda.manual_seed(SEED)
 torch.backends.cudnn.deterministic = True
 # endregion
 
-# This implementation utilized the code available at https://github.com/bentrevett/pytorch-seq2seq.
-# Special thanks to Ben Trevett for his contributions!
+# This implementation utilized the code available at  https://github.com/bentrevett/pytorch-seq2seq.
+# A special thanks to Ben Trevett for his tutorials!
 
 
 def print_model(model_name, src_field, trg_field, device):
@@ -118,7 +118,6 @@ if __name__ == '__main__':
                        'Attention_PM',      # 3
                        'Convolution',       # 4
                        'Transformer']       # 5
-    # Model_name__ = [5, 3, 2]
 
     Model_name = Model_name_list[5]
 

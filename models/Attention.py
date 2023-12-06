@@ -5,10 +5,10 @@ from torch import nn
 import torch.nn.functional as F
 
 
-# paper name: Neural Machine Translation by Jointly Learning to Align and Translate
-# arXiv preprint arXiv:1409.0473
-# time: 2014-09-01
-# paper reference: https://arxiv.org/pdf/1409.0473.pdf
+# Paper Name: Neural Machine Translation by Jointly Learning to Align and Translate
+# Accept: arXiv preprint arXiv:1409.0473
+# Time: 2014-09-01
+# Paper Reference: https://arxiv.org/pdf/1409.0473.pdf
 
 class Encoder(nn.Module):
     def __init__(self, input_dim, emb_dim, enc_hid_dim, dec_hid_dim, dropout):
