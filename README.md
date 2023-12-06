@@ -9,6 +9,8 @@ This repository utilized the code available at [pytorch_seq2seq](https://github.
 Python: 3.8  
 torch == 1.8.1  
 torchtext == 0.9.1  
+&emsp;# Ensure that the torchtext version is 0.9; otherwise, an error will occur in init_data.    
+&emsp;# Meanwhile, torch is available only in version 1.8 because torch and torchtext have version relationships of a.b.c and a.(b+1).c.     
 spacy == 3.7.2  
 en_core_web_sm and de_core_news_sm can be found in library, you can use "pip setup.py install" to install these.  
 
