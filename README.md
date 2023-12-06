@@ -1,6 +1,6 @@
 # Seq2Seq
 
-# Introduce
+# Introduction
 There are several seq2seq models implemented in PyTorch. By exploring these models, you can enhance your understanding of NLP and related research papers.  
 This repository utilized the code available at [pytorch_seq2seq](https://github.com/bentrevett/pytorch-seq2seq). A special thanks to Ben Trevett for his tutorials!
 
