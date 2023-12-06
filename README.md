@@ -5,7 +5,7 @@ There are several seq2seq models implemented in PyTorch. By exploring these mode
 This repository utilized the code available at [pytorch_seq2seq](https://github.com/bentrevett/pytorch-seq2seq). A special thanks to Ben Trevett for his tutorials!
 
 
-# Environment
+# Requirements
 Python: 3.8  
 torch == 1.8.1  
 torchtext == 0.9.1  
